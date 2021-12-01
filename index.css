@@ -25,7 +25,7 @@ body {
 .cell {
     width: var(--cell-size);
     height: var(--cell-size);
-    background-color: rgb(55, 178, 250);
+    background-image: linear-gradient(to bottom right, rgb(0, 166, 255), rgb(39, 236, 223));
     border: 1px solid rgb(4, 93, 148);
     border-radius: 5px;
     display: flex;
@@ -34,6 +34,7 @@ body {
     align-items: center;
     position: relative;
     cursor: pointer;
+    background-image: linear-gradient();
 }
 
 .cell:first-child,

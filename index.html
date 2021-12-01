@@ -5,13 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <script src="index.js"></script>
     <title>Classic Tic Tac Toe</title>
 </head>
 <body>
-    <div class="board circle" id="board">
-        <div class="cell x" data-cell></div>
-        <div class="cell circle" data-cell></div>
+    <div class="board" id="board">
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
         <div class="cell" data-cell></div>
         <div class="cell" data-cell></div>
         <div class="cell" data-cell></div>
@@ -23,9 +22,11 @@
 
     <div class="winning-message" id="winningMessage">
         <!---------------- DISPLAY WINNING MESSAGE HERE ------------------------>
-        <div data-winning-message-text>X Wins!</div>
+        <div data-winning-message-text></div>
         <button id="restartButton">RESTART</button>
     </div>
     
+
+    <script src="index.js"></script>
 </body>
 </html>
