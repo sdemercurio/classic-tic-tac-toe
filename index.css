@@ -115,3 +115,39 @@ body {
     height: calc(var(--mark-size) * .7);
     background-color: rgb(55, 178, 250);
 }
+
+.winning-message {
+    display: none;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-image: linear-gradient(to bottom right, rgb(0, 166, 255), rgb(39, 236, 223));
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 5rem;
+    flex-direction: column;
+}
+
+.winning-message button {
+    font-size: 2.5rem;
+    background-color: rgb(80, 146, 204);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 15px 32px;
+    cursor:pointer;
+}
+
+.winning-message button:hover {
+    background-color: white;
+    color: rgb(80, 146, 204);
+}
+
+.winning-message.show {
+    display: flex;
+}
